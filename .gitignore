@@ -1,0 +1,57 @@
+# Django specific
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+
+# If using SQLite, this is the default database file
+*.sqlite3
+
+# If using Jupyter Notebook
+.ipynb_checkpoints
+
+# If using virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# If using pipenv
+Pipfile.lock
+
+# If using coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# If using celery
+celerybeat-schedule
+celerybeat.pid
+
+# If using translations
+*.mo
+*.pot
+
+# If using docker
+*.env
+docker-compose*.yml
+.dockerignore
+
+# If using Visual Studio Code
+.vscode/
+
+# If using PyCharm
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
